@@ -15,7 +15,7 @@
 
   3. What can we use to implement polymorphism in Java?
 
-Polymorphism can be implemented using both abstract classes and interfaces.
+  Polymorphism can be implemented using both abstract classes and interfaces.
 
 
 
@@ -27,7 +27,7 @@ Polymorphism can be implemented using both abstract classes and interfaces.
 
   5. Give an example of when you could use polymorphism.
 
-	If you want to store objects of different types in an ArrayList, rather than having to create an ArrayList for each object type, if each of the object types you want to store inherit from the same parent e.g. from an abstract class or an interface, then each of the different object types can be treated as being the same object type as the parent and therefore can be stored in the one ArrayList.
+	If you want to store objects of different types in an ArrayList, rather than having to create an ArrayList for each object type, if each of the object types you want to store inherit from the same parent e.g. from an abstract class or an interface, then each of the different object types can be treated as being the same object type as the parent and therefore can be stored in the one ArrayList of the parent or interface type.
 
 
 
@@ -35,20 +35,25 @@ Polymorphism can be implemented using both abstract classes and interfaces.
 
   6. What do we mean by 'composition' in reference to object-oriented programming?
 
-
+  Composition in OO programming means that one object is made up of, or composed of other objects.  We do this in order to gain functionality/behaviours that the other objects have.
 
 
 
   7. When would you use composition? Provide a simple example in Java.
 
-
+  When you want to create a class that has particular properties/behaviours, you can bring together other classes, which when taken together, will achieve your goal.  For example, a Computer class could be composed of a Motherboard, RAM, SSD classes. 
 
 
 
   8. What is/are the advantage(s) of using composition?
 
+  It allows a class to use behaviours from a group of other classes, meaning there’s no need to duplicate code already written elsewhere.
 
+  It allows behaviour to change at runtime like the classroom example of being able to set/change the input/output devices to a computer; this saves having to write the same method on various classes and makes it easier to add further classes in future without having to re-write the method. 
 
 
 
   9. What happens to the behaviours when the object composed of them is destroyed?
+
+  When an object is destroyed, all of its behaviours are destroyed.
+
