@@ -9,7 +9,7 @@
 
   When we apply polymorphism to OO design we are allowing an instance of a class to have the option of being treated as if it were also another type of class.
 
-  If we were modelling a hotel in Java we could have numerous types of rooms, e.g. bedrooms, conference rooms, dining rooms.  These various rooms could all derive from a parent Room class; this would allow the individual room types to be treated as a Room or their own type.
+  If we were modelling a hotel in Java we could have numerous types of rooms, e.g. bedrooms, conference rooms, dining rooms.  These various rooms could all derive from a parent Room class; this would allow the individual room types to be treated as a Room type or their own type. Another way, if all the room types implemented the same interface to achieve the same behaviour e.g. check in/out guests, then each room can also be treated as the interface type.
 
 
 
@@ -35,13 +35,13 @@
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
 
-  Composition in OO programming means that one object is made up of, or composed of other objects.  We do this in order to gain functionality/behaviours that the other objects have.
+  Composition in OO programming means that one object is made up of, or composed of other objects.  We do this in order to gain functionality/behaviours that the combined objects will have.
 
 
 
 7. When would you use composition? Provide a simple example in Java.
 
-  When you want to create a class that has particular properties/behaviours, you can bring together other classes, which when taken together, will achieve your goal.  For example, a Computer class could be composed of a Motherboard, RAM, SSD classes. 
+  When you want to create a class that has particular properties/behaviours, you can bring together other classes, which when taken together, will achieve your goal.  For example, a Computer class could be composed of a Motherboard, RAM, SSD classes. When composed, these objects together will allow the Computer to carry out it’s operations such as saving and transferring data around the system.
 
 
 
